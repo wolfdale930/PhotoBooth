@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1014723898445",
+    "firebase_url": "https://wavelash-63258.firebaseio.com",
+    "project_id": "wavelash-63258",
+    "storage_bucket": "wavelash-63258.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014723898445:android:b72afc88662e6efe",
+        "android_client_info": {
+          "package_name": "com.tech.areeb.photobooth2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1014723898445-71uidfleqt92cuel01abd4da5e1etooa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tech.areeb.photobooth2",
+            "certificate_hash": "b1af684558e9db7aef49a63d760679bbd842fc54"
+          }
+        },
+        {
+          "client_id": "1014723898445-0tsklt8ranqmec566bojhhmh51pabhil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHMBTB_BEy0eCuN6CQFYrFI5OLTuWVEl4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1014723898445-0tsklt8ranqmec566bojhhmh51pabhil.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

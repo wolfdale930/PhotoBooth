@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#424242</color>
+    <color name="colorPrimaryDark">#212121</color>
+    <color name="colorAccent">#0277bd</color>
+    <color name="colorSubPrimary">#303030</color>
+    <color name="colorLight">#e0e0e0</color>
+    <color name="ratingBar">#FFEB3B</color>
+    <color name="transparent">#00000000</color>
+    <color name="translucent">#44000000</color>
+
+
+</resources>

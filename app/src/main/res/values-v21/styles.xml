@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:ratingBarStyle">@style/RatingTheme</item>
+
+    </style>
+    <style name="SplashTheme" parent="@android:style/Theme.Material.NoActionBar.Fullscreen">
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:windowBackground">@drawable/splash_screen_background</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+    </style>
+    <style name="CameraTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+    </style>
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar.TabText">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:titleTextStyle">@style/ActionBarTextStyle</item>
+    </style>
+    <style name="ActionBarTextStyle" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="RatingTheme" parent="@android:style/Widget.Material.RatingBar">
+        <item name="android:progressTint">@color/ratingBar</item>
+    </style>
+    <style name="RatingThemeSmall" parent="@style/Base.Widget.AppCompat.RatingBar.Small">
+        <item name="android:progressTint">@color/ratingBar</item>
+    </style>
+
+    <style name="DialogTheme" parent="@android:style/Theme.Material.Dialog.NoActionBar">
+        <item name="android:ratingBarStyle">@style/RatingTheme</item>
+    </style>
+</resources>

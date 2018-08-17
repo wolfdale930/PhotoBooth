@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tech.areeb.photobooth2.CameraActivity">
+
+    <ImageView
+        android:id="@+id/photo_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/splash_logo" />
+
+    <com.tech.areeb.photobooth2.ui.camera.CameraSourcePreview
+        android:id="@+id/preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <com.tech.areeb.photobooth2.ui.camera.GraphicOverlay
+            android:id="@+id/faceOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </com.tech.areeb.photobooth2.ui.camera.CameraSourcePreview>
+
+    <LinearLayout
+        android:id="@+id/filter_list"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_outline"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="15dp"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/clown"
+            android:src="@drawable/clown"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"/>
+
+        <ImageView
+            android:id="@+id/hat"
+            android:src="@drawable/hat_thumb"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"/>
+
+        <ImageView
+            android:id="@+id/shades"
+            android:src="@drawable/shades"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"/>
+
+        <ImageView
+            android:id="@+id/nosedog"
+            android:src="@drawable/nosedog_thumb"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/captureButton"
+        android:src="@drawable/camera"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="100dp"/>
+
+    <ImageView
+        android:id="@+id/post_photo"
+        android:src="@drawable/post"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageView
+        android:id="@+id/retake_photo"
+        android:src="@drawable/reset"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitCenter"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="100dp"/>
+
+
+</RelativeLayout>
